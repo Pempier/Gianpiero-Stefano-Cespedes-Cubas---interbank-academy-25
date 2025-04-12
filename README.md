@@ -14,5 +14,5 @@ Se utiliza Python con el módulo `csv` para leer y procesar los datos. El progra
 ## Estructura del Proyecto
 📦 Gianpiero-Stefano-Cespedes-Cubas---interbank-academy-25/
  ┣ 📄 README.md
- ┣ 📄 TransacciónMayorMonto.py
+ ┣ 📄 TransaccionMayorMonto.py
  ┗ 📄 data.csv
