@@ -7,7 +7,7 @@ Esta es una aplicación de línea de comandos que procesa un archivo CSV con tra
 1. Asegúrate de tener el archivo `data.csv` en el mismo directorio.
 2. Ejecuta el script con:
     py ProcesarTransaccion.py
-3. El código también funciona al ejecutarlo directamente desde windows, asegurate de cumplir el paso 1.
+3. El código también funciona al ejecutarlo directamente desde windows, asegurate de cumplir el paso 1 y de tener instalado python.
 
 ## Enfoque y Solución
 Se utiliza Python con el módulo `csv` para leer y procesar los datos; además del módulo `os` para el funcionamiento en sistemas operativos como windows. El programa calcula el balance total, identifica la transacción con mayor monto y cuenta cuántas transacciones hay de cada tipo. La lógica es sencilla y no requiere librerías externas, se formula el siguiente Pseudocódigo estructurado:
