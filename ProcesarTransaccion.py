@@ -10,7 +10,7 @@ def procesar_transacciones(nombre_archivo):    # Define una función llamada 'pr
 
         # Abre el archivo CSV en modo lectura:
         # - 'newline=""' evita problemas con saltos de línea
-        # - 'encoding="utf-8-sig"' soporta archivos con BOM
+        # - 'encoding="utf-8-sig"' soporta archivos con BOM; normalmente utilizado al leer archivos CSV
         with open(nombre_archivo, newline='', encoding='utf-8-sig') as archivo:
             lector = csv.DictReader(archivo)     # Crea un lector de CSV que interpreta cada fila como diccionario
             for fila in lector:                  # Itera sobre cada fila del archivo CSV
